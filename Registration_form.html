@@ -1,0 +1,373 @@
+<DOCTYPE HTML>
+<head>
+   <title>Registration Form </title>
+   <style>
+     
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            border: 1px solid #000;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+            vertical-align: middle;
+        }
+
+        .section {
+            background-color: #008db1;
+            color: white;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        select, textarea {
+            width: 90%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .button-container {
+            text-align: center;
+            padding: 4px;
+         }
+
+        .button-container input {
+            padding: 3px 10px;
+            margin: 0 10px;
+            font-size: 14px;
+            cursor: pointer;
+         }
+
+   </style>
+
+</head>
+
+<body>
+<h2>REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL</h2>
+   <div class="container">
+    <table>
+        <tr>
+            <td colspan="3" class="section">1. Registration Form</td>
+        </tr>
+        <tr>
+            <td>1.0</td>
+            <td>Have you got online reference number for enrolment with NIELIT/Accreditation/Extension Center</td>
+            <td>
+                <input type="radio" name="ref"> No
+                <input type="radio" name="ref"> Yes
+            </td>
+        </tr>
+
+        <tr>
+            <td>1.1</td>
+            <td>Registration sought for</td>
+            <td>
+                <select>
+                    <option>O LEVEL</option>
+                    <option>1 LEVEL</option>
+                    <option>2 LEVEL</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>1.2</td>
+            <td>Applied As</td>
+            <td>
+                <input type="radio" name="apply"> Direct Candidate
+                <input type="radio" name="apply"> Through Institute
+            </td>
+        </tr>
+
+        <tr>
+            <td>1.3</td>
+            <td>Exam Cycle</td>
+            <td><input type="text" value="July, 2022"></td>
+        </tr>
+
+        <tr>
+            <td>1.4</td>
+            <td>Registration Fee Will Be Paid By?</td>
+            <td><input type="text" value="Candidate Direct to NIELIT"></td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="section">2. Applicant's Personal Details</td>
+        </tr>
+
+        <tr>
+            <td>2.1</td>
+            <td>Applicant's Full Name</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                </select>
+                <input type="text" name = "name">
+            </td>
+        </tr>
+
+         <tr>
+            <td>2.2</td>
+            <td>Care Of</td>
+            <td>
+                <input type="radio" name="care"> Parents
+                <input type="radio" name="care"> Guardian
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.2.1</td>
+            <td>Father's Name</td>
+            <td>
+                <select>
+                    <option>Mr.</option>
+                    <option>Dr.</option>
+                </select>
+                <input type="text" name = "name">
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.2.2</td>
+            <td>Mother's Name</td>
+            <td>
+                <select>
+                    <option>Mrs.</option>
+                    <option>Smt.</option>
+                </select>
+                <input type="text" name = "name">
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.3</td>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Others
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.4</td>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td>2.5</td>
+            <td>Marital Status</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>Single</option>
+                    <option>Married</option>
+                </select>
+            </td>
+        </tr>
+         
+        <tr>
+            <td>2.6</td>
+            <td>Catagory</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>General</option>
+                    <option>OBC</option>
+                    <option>SC/ST</option>
+                </select>
+            </td>
+        </tr>
+ 
+        <tr>
+            <td>2.7</td>
+            <td>Handicapped</td>
+            <td>
+                <input type="radio" name="ref"> No
+                <input type="radio" name="ref"> Yes
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.8</td>
+            <td>Ex-Serviceman</td>
+            <td>
+                <input type="radio" name="ref"> No
+                <input type="radio" name="ref"> Yes
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.9</td>
+            <td>EWS</td>
+            <td>
+                <input type="radio" name="ref"> No
+                <input type="radio" name="ref"> Yes
+            </td>
+        </tr>
+
+        <tr>
+            <td>2.10</td>
+            <td>Religion</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>Hindu</option>
+                    <option>Muslim</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="section">3. Contact Details</td>
+        </tr>
+
+        <tr>
+            <td>3.1</td>
+            <td>Mobile Number</td>
+            <td>
+               <input type="tel" name= "mobile">
+            </td>
+        </tr>
+ 
+        <tr>
+            <td>3.2</td>
+            <td>Email</td>
+            <td>
+               <input type="email" name= "email">
+            </td>
+        </tr>
+
+        <tr>
+            <td>3.3</td>
+            <td>Address Line 1</td>
+            <td>
+               <input type="text" name= "address">
+            </td>
+        </tr>
+  
+        <tr>
+            <td>3.4</td>
+            <td>Address Line 2</td>
+            <td>
+               <input type="text" name= "address2">
+            </td>
+        </tr>
+  
+        <tr>
+            <td>3.5</td>
+            <td>City</td>
+            <td>
+               <input type="text" name= "city">
+            </td>
+        </tr>
+
+        <tr>
+            <td>3.6</td>
+            <td>State</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>Bihar</option>
+                    <option>Gujrat</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Maharastra</option>
+                </select>
+            </td>
+        </tr>
+ 
+         <tr>
+            <td>3.7</td>
+            <td>Pincode</td>
+            <td>
+               <input type="number" name= "pin">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="section">4. Educational/Qualification Details</td>
+        </tr>
+
+        <tr>
+            <td>4.1</td>
+            <td>Highest Educational Qualification</td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>Btech</option>
+                 </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>4.2</td>
+            <td>Year of Passing</td>
+            <td>
+               <input type="text" name= "passing_year">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="section">5. Identification Details</td>
+        </tr>
+
+        <tr>
+            <td>5.1</td>
+            <td>Aadhar Card Number</td>
+            <td>
+               <input type="text" name= "aadhar">
+            </td>
+        </tr>
+
+        <tr>
+            <td>5.2</td>
+            <td>Upload Photo</td>
+            <td>
+               <input type="file" name="photo">
+            </td>
+        </tr>
+        
+        <tr>
+           <td colspan="3" class="button-container">
+               <input type="submit" value="Submit">
+               <input type="button" value="Back" onclick="history.back()">
+           </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
